@@ -2,5 +2,5 @@
 #EXTINF:-1,河南卫视
 https://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=9e9607c8b024f2d1c3320e2bcc3205f3&wsTime=1740044730
 #EXTM3U
-#EXTINF:-1 group-title="直播,#genre#",深夜d你上高速
-https://vuqknkdvvnbquqnevnnbc.livecdn.annuoxun.com/dyp2p-hw.douyucdn.cn/live/7882691rnxwedaNE.xs?wsAuth=c833036eb70147ef25b7eff5b41bed2a&token=web-h5-0-7882691-e3f53f7d9902ae25fb85a6ea29ad71d665fd3224e83552b9&logo=0&expire=0&did=921c400343ee90e3472a62b200091701&ver=Douyu_225021905&pt=2&st=0&sid=408969205&mcid2=0&origin=tct&fcdn=hw&fo=0&mix=0&isp=&playid=1740033957662-5885027131&uuid=b7aff507-c674-4c7b-b95c-90fa49852e76&txSecret=0f244820ecf0216a3de0fd19b437bdcf&txTime=67b72405&basesub=6&substream=0&startid=657213090
+#EXTINF:-1 group-title="直播,#genre#\"",深夜d你上高速
+https://tx2play1.douyucdn.cn/live/7882691rnxwedaNE.xs
