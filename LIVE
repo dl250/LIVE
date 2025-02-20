@@ -1,5 +1,9 @@
-斗鱼,#genre#
-深夜d你上高速,https://openhls-tct.douyucdn2.cn/dyliveflv3/7882691rnxwedaNE_900.m3u8?txSecret=b0c5c411a63d7fda2293067628095ef1&txTime=67b6f6eb&token=h5-douyu-0-7882691-0de69c46915bee072040b2856d7cde2a&did=a2599b6d784d873563f7d97d000917p1&origin=tct&vhost=play3&sid=408969205
-吃奶滴虫,https://openhls-hw.douyucdn2.cn/live/263824ri8DANucuE_900.m3u8?txSecret=5e905cd0c71ca4304acd92d1f4fbe63e&txTime=67b6f73d&token=h5-douyu-0-263824-3825d4230597a71db9e3823b9d600da4&did=a2599b6d784d873563f7d97d000917p1&origin=hw&vhost=play4&sid=409189086
-苹果Zei妖,https://openhls-tct.douyucdn2.cn/dyliveflv3/2793084rVcn0bpOP_900.m3u8?txSecret=accc3a5eb96967f37f533941043973ea&txTime=67b6f79a&token=h5-douyu-0-2793084-953798f14729bf9015d561cdd2ed5535&did=a2599b6d784d873563f7d97d000917p1&origin=tct&vhost=play3&sid=408868937
-Only丶邵氏,https://openhls-tct.douyucdn2.cn/dyliveflv1a/4246519rQqvCVqbw_900.m3u8?txSecret=17b496c70d047756786a5b9968a061ef&txTime=67b6f866&token=h5-douyu-0-4246519-040777cc70e55c0d8f6bd54f45d33d68&did=a2599b6d784d873563f7d97d000917p1&origin=tct&vhost=play2&sid=406443923
+#EXTM3U
+#EXTINF:-1 group-title="斗鱼,#genre#",深夜d你上高速
+https://openhls-tct.douyucdn2.cn/dyliveflv3/7882691rnxwedaNE_900.m3u8?txSecret=b0c5c411a63d7fda2293067628095ef1&txTime=67b6f6eb&token=h5-douyu-0-7882691-0de69c46915bee072040b2856d7cde2a&did=a2599b6d784d873563f7d97d000917p1&origin=tct&vhost=play3&sid=408969205
+#EXTINF:-1 group-title="斗鱼,#genre#",吃奶滴虫
+https://openhls-hw.douyucdn2.cn/live/263824ri8DANucuE_900.m3u8?txSecret=5e905cd0c71ca4304acd92d1f4fbe63e&txTime=67b6f73d&token=h5-douyu-0-263824-3825d4230597a71db9e3823b9d600da4&did=a2599b6d784d873563f7d97d000917p1&origin=hw&vhost=play4&sid=409189086
+#EXTINF:-1 group-title="斗鱼,#genre#",苹果Zei妖
+https://openhls-tct.douyucdn2.cn/dyliveflv3/2793084rVcn0bpOP_900.m3u8?txSecret=accc3a5eb96967f37f533941043973ea&txTime=67b6f79a&token=h5-douyu-0-2793084-953798f14729bf9015d561cdd2ed5535&did=a2599b6d784d873563f7d97d000917p1&origin=tct&vhost=play3&sid=408868937
+#EXTINF:-1 group-title="斗鱼,#genre#",Only丶邵氏
+https://openhls-tct.douyucdn2.cn/dyliveflv1a/4246519rQqvCVqbw_900.m3u8?txSecret=17b496c70d047756786a5b9968a061ef&txTime=67b6f866&token=h5-douyu-0-4246519-040777cc70e55c0d8f6bd54f45d33d68&did=a2599b6d784d873563f7d97d000917p1&origin=tct&vhost=play2&sid=406443923
