@@ -1,1 +1,86 @@
+要查看 Ubuntu 当前 CPU 睿频（Turbo Boost）频率，可以使用以下几种方式之一。
+
+
+---
+
+✅ 方法一：使用 lscpu 查看最大频率（含睿频上限）
+
+lscpu | grep MHz
+
+输出示例：
+
+CPU MHz:             3600.000
+CPU max MHz:         4600.000
+CPU min MHz:         800.000
+
+CPU MHz: 当前主频
+
+CPU max MHz: 睿频上限（如果开启了 Turbo Boost）
+
+CPU min MHz: 节能模式下的最低频率
+
+
+
+---
+
+✅ 方法二：使用 watch + grep 实时查看频率变化
+
+watch "grep 'cpu MHz' /proc/cpuinfo"
+
+这个命令会每 2 秒刷新一次，展示每个核心的当前主频（单位 MHz）。
+
+
+---
+
+✅ 方法三：使用 cpupower 查看和控制睿频
+
+1. 安装工具：
+
+sudo apt install linux-tools-common linux-tools-$(uname -r)
+
+
+2. 查看当前频率：
+
+sudo cpupower frequency-info
+
+输出中类似这样：
+
+current policy: frequency should be within 800 MHz and 4.60 GHz.
+                The governor "powersave" may decide which speed to use
+                within this range.
+current CPU frequency is 3.89 GHz.
+boost state support:
+  Supported: yes
+  Active: yes
+
+Boost state support 说明是否支持并启用了 Turbo Boost。
+
+
+
+
+
+---
+
+✅ 方法四（图形界面）：使用 gnome-system-monitor 或 indicator-cpufreq
+
 sudo apt install indicator-cpufreq
+
+安装后可在面板上查看当前频率。
+
+
+---
+
+如果你想确认是否启用了 Turbo Boost，可以使用：
+
+cat /sys/devices/system/cpu/intel_pstate/no_turbo
+
+输出为 0：说明 Turbo Boost 是开启的
+
+输出为 1：说明 Turbo Boost 被禁用
+
+
+
+---
+
+需要进一步帮你检查当前是否达到了睿频、或你的 CPU 型号是多少吗？
+
